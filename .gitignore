@@ -1,0 +1,31 @@
+# ----------------------------
+# Data files
+# ----------------------------
+
+# Raw ESCI dataset (pulled via git-lfs inside submodule)
+data/**/shopping_queries_dataset/**/*.parquet
+
+# Any other parquet files
+*.parquet
+
+# Processed data artifacts (can be regenerated)
+data/**/processed/**
+
+# ----------------------------
+# Pixi environment
+# ----------------------------
+.pixi/
+
+# ----------------------------
+# Python artifacts
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ----------------------------
+# Logs / outputs
+# ----------------------------
+*.log
+outputs/

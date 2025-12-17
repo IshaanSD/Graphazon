@@ -1,0 +1,3 @@
+[submodule "data/shopping-queries-data-set/raw/amazon-science/esci-data"]
+	path = data/shopping-queries-data-set/raw/amazon-science/esci-data
+	url = https://github.com/amazon-science/esci-data.git

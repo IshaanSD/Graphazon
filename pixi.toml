@@ -1,0 +1,28 @@
+[workspace]
+name = "graphazon"
+version = "0.1.0"
+description = "Graphazon: Knowledge Graph + LangChain + Ranking for Amazon ESCI Dataset"
+
+channels = ["conda-forge"]
+platforms = ["osx-arm64", "osx-64", "linux-64"]
+
+[dependencies]
+python = "3.11"
+
+# Core
+pandas = "*"
+numpy = "*"
+scikit-learn = "*"
+tqdm = "*"
+pyarrow = "20.*"
+
+# Knowledge Graph
+networkx = "*"
+
+# Deep Learning
+pytorch = "*"
+sentence-transformers = "*"
+
+# LLM / LangChain
+langchain = "*"
+openai = "*"
