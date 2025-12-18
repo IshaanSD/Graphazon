@@ -1,0 +1,11 @@
+You are classifying an e-commerce shopping query intent.
+
+Return ONLY a JSON object with exactly one key: "intent".
+Valid intents:
+- "lookup"
+- "substitute_search"
+- "complement_search"
+- "browse"
+
+Locale: {locale}
+Query: {query}

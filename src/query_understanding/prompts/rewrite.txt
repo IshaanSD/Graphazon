@@ -1,0 +1,6 @@
+Rewrite the shopping query into a concise canonical query for product search.
+Return ONLY JSON: {{"rewritten_query": "<string>"}}.
+Do not wrap the JSON in markdown or code fences.
+
+Locale: {locale}
+Query: {query}

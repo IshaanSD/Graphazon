@@ -8,6 +8,8 @@ platforms = ["osx-arm64", "osx-64", "linux-64"]
 
 [dependencies]
 python = "3.11"
+python-dotenv = "*"
+pydantic = "*"
 
 # Core
 pandas = "*"
@@ -26,3 +28,4 @@ sentence-transformers = "*"
 # LLM / LangChain
 langchain = "*"
 openai = "*"
+langchain-openai = "*"

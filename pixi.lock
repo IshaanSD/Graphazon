@@ -74,6 +74,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/krb5-1.21.3-h659f571_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/langchain-1.2.0-pymin310_h332efcf_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/langchain-core-1.2.2-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/langchain-openai-1.1.4-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/langchain-text-splitters-0.3.11-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/langgraph-1.0.5-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/langgraph-checkpoint-3.0.1-pyhcf101f3_0.conda
@@ -176,6 +177,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/pysocks-1.7.1-pyha55dd90_7.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/python-3.11.0-he550d4f_1_cpython.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python-dateutil-2.9.0.post0-pyhe01879c_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/python-dotenv-1.2.1-pyhcf101f3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python-gil-3.11.14-hd8ed1ab_2.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python-tzdata-2025.3-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/python-xxhash-3.6.0-py311h041eb40_1.conda
@@ -203,6 +205,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/tbb-2022.3.0-h8d10470_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/tenacity-9.1.2-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/threadpoolctl-3.6.0-pyhecae5ae_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/tiktoken-0.12.0-py311h9a14573_3.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/tk-8.6.13-noxft_ha0e22de_103.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/tokenizers-0.22.2-py311ha21528d_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/tqdm-4.67.1-pyhd8ed1ab_1.conda
@@ -297,6 +300,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-64/krb5-1.21.3-h37d8d59_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/langchain-1.2.0-pymin310_h332efcf_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/langchain-core-1.2.2-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/langchain-openai-1.1.4-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/langchain-text-splitters-0.3.11-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/langgraph-1.0.5-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/langgraph-checkpoint-3.0.1-pyhcf101f3_0.conda
@@ -394,6 +398,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/pysocks-1.7.1-pyha55dd90_7.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/python-3.11.0-he7542f4_1_cpython.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python-dateutil-2.9.0.post0-pyhe01879c_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/python-dotenv-1.2.1-pyhcf101f3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python-gil-3.11.14-hd8ed1ab_2.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python-tzdata-2025.3-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/python-xxhash-3.6.0-py311hc73dd4b_1.conda
@@ -420,6 +425,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-64/tbb-2021.13.0-hf0c99ee_4.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/tenacity-9.1.2-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/threadpoolctl-3.6.0-pyhecae5ae_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-64/tiktoken-0.12.0-py311h98b24dd_3.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/tk-8.6.13-hf689a15_3.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/tokenizers-0.22.2-py311h98b24dd_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/tqdm-4.67.1-pyhd8ed1ab_1.conda
@@ -513,6 +519,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/krb5-1.21.3-h237132a_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/langchain-0.3.27-pymin310_h332efcf_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/langchain-core-0.3.79-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/langchain-openai-0.3.35-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/langchain-text-splitters-0.3.11-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/langsmith-0.5.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/lcms2-2.17-h7eeda09_0.conda
@@ -605,6 +612,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/pysocks-1.7.1-pyha55dd90_7.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/python-3.11.0-h3ba56d0_1_cpython.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python-dateutil-2.9.0.post0-pyhe01879c_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/python-dotenv-1.2.1-pyhcf101f3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python-gil-3.11.14-hd8ed1ab_2.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/python-tzdata-2025.3-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/python-xxhash-3.6.0-py311hacbd903_1.conda
@@ -630,6 +638,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/sympy-1.14.0-pyh2585a3b_105.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/tenacity-9.1.2-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/threadpoolctl-3.6.0-pyhecae5ae_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/tiktoken-0.12.0-py311h4175fc0_3.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/tk-8.6.13-h892fb3f_3.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/tokenizers-0.22.2-py311h4175fc0_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/tqdm-4.67.1-pyhd8ed1ab_1.conda
@@ -2446,6 +2455,30 @@ packages:
   license_family: MIT
   size: 311339
   timestamp: 1765919497434
+- conda: https://conda.anaconda.org/conda-forge/noarch/langchain-openai-0.3.35-pyhd8ed1ab_0.conda
+  sha256: 7d0b9d5f91e5d96d4b5cef045b8fa1e7c5a5ee2a21b6e5f5c260317750b7d7ef
+  md5: cc0dfbe38a252c4a3ab7918229cb9bb8
+  depends:
+  - langchain-core >=0.3.78,<1.0.0
+  - openai >=1.104.2,<3.0.0
+  - python >=3.10
+  - tiktoken >=0.7.0,<1.0.0
+  license: Apache-2.0
+  license_family: APACHE
+  size: 55915
+  timestamp: 1759767779878
+- conda: https://conda.anaconda.org/conda-forge/noarch/langchain-openai-1.1.4-pyhd8ed1ab_0.conda
+  sha256: 4b4500e9ea0401146c84d4fe235fe031ca8e525034c29a154e945b1560abd208
+  md5: 4240dac5ce5373e4f97989bff059108d
+  depends:
+  - langchain-core >=1.2.1,<2.0.0
+  - openai >=1.109.1,<3.0.0
+  - python >=3.10
+  - tiktoken >=0.7.0,<1.0.0
+  license: Apache-2.0
+  license_family: APACHE
+  size: 63719
+  timestamp: 1765921235687
 - conda: https://conda.anaconda.org/conda-forge/noarch/langchain-text-splitters-0.3.11-pyhd8ed1ab_0.conda
   sha256: d5532d8aaeac193e07fb8294d083cdf14c74383656c55be2f92088f5a32e118e
   md5: 9de037a32dbe4813277db08237726879
@@ -5963,6 +5996,16 @@ packages:
   license_family: APACHE
   size: 233310
   timestamp: 1751104122689
+- conda: https://conda.anaconda.org/conda-forge/noarch/python-dotenv-1.2.1-pyhcf101f3_0.conda
+  sha256: aa98e0b1f5472161318f93224f1cfec1355ff69d2f79f896c0b9e033e4a6caf9
+  md5: 083725d6cd3dc007f06d04bcf1e613a2
+  depends:
+  - python >=3.10
+  - python
+  license: BSD-3-Clause
+  license_family: BSD
+  size: 26922
+  timestamp: 1761503229008
 - conda: https://conda.anaconda.org/conda-forge/noarch/python-gil-3.11.14-hd8ed1ab_2.conda
   sha256: 9261923f0dc8a3c8c517c29d8f3b7eea80f2577b094198239895bd7a88b534c5
   md5: a4effc7e6eb335d0e1080a5554590425
@@ -6687,6 +6730,56 @@ packages:
   license_family: BSD
   size: 23869
   timestamp: 1741878358548
+- conda: https://conda.anaconda.org/conda-forge/linux-64/tiktoken-0.12.0-py311h9a14573_3.conda
+  sha256: 42ce58a177c5245b22a2f84316e99d55e03a1eedfe28229887ef3342dc9dd84e
+  md5: 372be24f38799dd9a4ad97765a07ea0f
+  depends:
+  - __glibc >=2.17,<3.0.a0
+  - libgcc >=14
+  - libstdcxx >=14
+  - python >=3.11,<3.12.0a0
+  - python_abi 3.11.* *_cp311
+  - regex >=2022.1.18
+  - requests >=2.26.0
+  constrains:
+  - __glibc >=2.17
+  license: MIT
+  license_family: MIT
+  size: 937826
+  timestamp: 1764028384900
+- conda: https://conda.anaconda.org/conda-forge/osx-64/tiktoken-0.12.0-py311h98b24dd_3.conda
+  sha256: 2358f59d781ff509d3176ed5145a0718d727b6e8d44341e74d9e1ce0ad4c460f
+  md5: 6cc745b914d737d82b7e8256967e7b9e
+  depends:
+  - __osx >=10.13
+  - libcxx >=19
+  - python >=3.11,<3.12.0a0
+  - python_abi 3.11.* *_cp311
+  - regex >=2022.1.18
+  - requests >=2.26.0
+  constrains:
+  - __osx >=10.13
+  license: MIT
+  license_family: MIT
+  size: 866034
+  timestamp: 1764028686791
+- conda: https://conda.anaconda.org/conda-forge/osx-arm64/tiktoken-0.12.0-py311h4175fc0_3.conda
+  sha256: 6c7974eda99db7e0b9f46d6af629c872add495b8184704c7b3ef22878d52d9c8
+  md5: 3d433b302464dba5494545b4356a8257
+  depends:
+  - __osx >=11.0
+  - libcxx >=19
+  - python >=3.11,<3.12.0a0
+  - python >=3.11,<3.12.0a0 *_cpython
+  - python_abi 3.11.* *_cp311
+  - regex >=2022.1.18
+  - requests >=2.26.0
+  constrains:
+  - __osx >=11.0
+  license: MIT
+  license_family: MIT
+  size: 824623
+  timestamp: 1764028808078
 - conda: https://conda.anaconda.org/conda-forge/linux-64/tk-8.6.13-noxft_ha0e22de_103.conda
   sha256: 1544760538a40bcd8ace2b1d8ebe3eb5807ac268641f8acdc18c69c5ebfeaf64
   md5: 86bc20552bf46075e3d92b67f089172d

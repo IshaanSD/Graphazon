@@ -1,0 +1,11 @@
+Extract structured attributes from an e-commerce shopping query.
+
+Return ONLY valid JSON with these keys:
+- "product_type": string or null
+- "brands": array of strings
+- "colors": array of strings
+- "constraints": array of strings
+- "compatibility": array of strings
+
+Locale: {locale}
+Query: {query}
