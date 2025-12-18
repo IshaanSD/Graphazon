@@ -5,7 +5,7 @@
 [![ESCI Dataset](https://img.shields.io/badge/ESCI-Dataset-blue)](https://github.com/amazon-science/esci-data)
 
 
-Graphazon is an applied research-focused project that combines **query understanding**, **knowledge graph construction**, and **learning-to-rank models** for Amazon-style product search. The system is designed to demonstrate key applied science competencies in **machine learning, NLP, knowledge extraction, and recommender systems**.
+Graphazon is a research-focused project that combines **query understanding**, **knowledge graph construction**, and **learning-to-rank models** for Amazon-style product search. The system is designed to demonstrate key applied science competencies in **machine learning, NLP, knowledge extraction, and recommender systems**.
 
 ---
 
@@ -104,20 +104,17 @@ git submodule update --init --recursive
 ## Running Experiments
 
 ```
+# Build the knowledge graph
+pixi run python -m src.pipelines.build_kg.py
+
 # Run query understanding
 pixi run python -m src.pipelines.run_query_understanding
 
-# Build the knowledge graph
-pixi run python -m src.pipelines.build_kg
-
-# Combine the features
-pixi run python -m src.pipelines.build_features
-
 # Train the learning-to-rank model
-pixi run python -m src.pipelines.train_ranker
+pixi run python -m src.pipelines.train_ranker.py
 
 # Evaluate results
-pixi run python -m src.pipelines.evaluate
+pixi run python -m src.pipelines.evaluate.py
 ```
 
 ## License
