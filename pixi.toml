@@ -20,6 +20,8 @@ pyarrow = "20.*"
 
 # Knowledge Graph
 networkx = "*"
+gensim = "*"
+node2vec = ">=0.3.0,<0.4"
 
 # Deep Learning
 pytorch = "*"

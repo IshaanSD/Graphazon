@@ -27,6 +27,11 @@ if __name__ == "__main__":
     parser.add_argument("--processed-dir", type=str, required=True)
     parser.add_argument("--locale", type=str, default="us", choices=["us", "es", "jp"])
     parser.add_argument("--include-kg", action="store_true", help="Join KG features if present.")
+    parser.add_argument(
+        "--include-kg-embeddings",
+        action="store_true",
+        help="Join product Node2Vec embeddings from processed/kg/product_embeddings_{split}_{locale}.parquet",
+    )
     args = parser.parse_args()
 
     processed = Path(args.processed_dir)
@@ -59,7 +64,26 @@ if __name__ == "__main__":
             if "product_id" not in df_kg.columns:
                 raise RuntimeError(f"KG features file missing 'product_id' column: {kg_fp}")
             df = df.merge(df_kg, on="product_id", how="left", validate="many_to_one")
+    emb_fp = processed / "kg" / f"product_embeddings_{args.split}_{args.locale}.parquet"
 
+if args.include_kg_embeddings:
+    if not emb_fp.exists():
+        logger.warning("Product embeddings not found (%s). Continuing without embeddings.", emb_fp)
+    else:
+        logger.info("Reading product embeddings: %s", emb_fp)
+        df_emb = pd.read_parquet(emb_fp)
+
+        if "product_id" not in df_emb.columns:
+            raise RuntimeError(f"Embeddings file missing 'product_id' column: {emb_fp}")
+
+        # If embeddings include node_id, keep it but avoid collisions
+        # (Optional) you can drop node_id to reduce width:
+        # if "node_id" in df_emb.columns: df_emb = df_emb.drop(columns=["node_id"])
+
+        # Sanity: ensure one embedding per product_id
+        # (If not, this will raise)
+        df = df.merge(df_emb, on="product_id", how="left", validate="many_to_one")
+        
     out_dir = processed / "features"
     out_dir.mkdir(parents=True, exist_ok=True)
     out_fp = out_dir / f"{args.split}_features_{args.locale}.parquet"
