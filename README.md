@@ -42,14 +42,14 @@ Graphazon uses the **Amazon Shopping Queries Dataset (ESCI Benchmark)**:
 
 - Provides queries, candidate products, and **ESCI labels** (Exact / Substitute / Complement / Irrelevant)
 - Includes multilingual queries (English, Spanish, Japanese)
-- Available as a **git submodule** in `data/shopping-queries-data-set/raw/esci-data/`
+- Available as a **git submodule** in `data/shopping-queries-dataset/raw/amazon-science/esci-data/`
 
 ### Directory structure:
 ```
 data/
-└── shopping-queries-data-set/
+└── shopping-queries-dataset/
 ├── raw/
-│ └── esci-data/ # Git submodule from amazon-science
+│ └── amazon-science/esci-data/ # Git submodule from amazon-science
 └── processed/ # cleaned queries, products, KG triples, splits
 ```
 
