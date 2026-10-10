@@ -1,4 +1,5 @@
 import GraphBackground from "./GraphBackground";
+import SearchDemo from "./SearchDemo";
 
 const REPO_URL = "https://github.com/IshaanSD/Graphazon";
 
@@ -88,6 +89,8 @@ export default function App() {
             </div>
           ))}
         </div>
+
+        <SearchDemo />
 
         <footer className="mt-20 text-xs text-slate-500">
           Built on the{" "}

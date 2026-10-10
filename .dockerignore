@@ -1,0 +1,13 @@
+data/
+notebooks/
+experiments/
+web/
+.pixi/
+.git/
+.github/
+__pycache__/
+*.pyc
+.venv/
+*.parquet
+*.gpickle
+.env
